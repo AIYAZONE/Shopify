@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.top{
+  position:sticky;
+  top: 0;
+  height: 60px;
+  background-color: #333;
+}
+.big{
+  height: 200px;
+  background-color: #ddd;
+}
+.main{
+  height: auto;
+}
+.bottom{
+  height: 300px;
+  background-color: #333;
+}
+@media screen and (min-width: 1024px) {
+  .v5-scroll-product-features-2 {
+    min-height: 500px;
+    height: calc(100vh - min(4.1666667vw, 60px));
+  }
+
+  .v5-scroll-product-features-2.in-pdp {
+    height: calc(100vh - 66px - 3.75rem);
+  }
+}
+@media screen and (max-width: 1023.98px) {
+  .v5-scroll-product-features-2 {
+    min-height: 500px;
+  }
+}
